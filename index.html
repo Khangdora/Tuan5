@@ -1,355 +1,151 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Listing</title>
+    <title>Web của Khang cho tuần 5</title>
 
     <link rel="stylesheet" href="css/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
     <header>
-
-        <div class="header">
-            <div class="navbar-left">
-                <a href="/shop">Shop</a>
-                <a href="/offers">Offers</a>
-                <a href="/our-story">Our story</a>
-                <a href="/blog">Blog</a>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="img/Image 1713.png"></img>
             </div>
-            <div class="navbar-brand">
-                <a href="/">
-                    <img src="images/logo.png" />
-                </a>
+            <div class="header-left">
+                <div class="header-items actived">
+                    Home
+                </div>
+                <div class="header-items">
+                    Promotions
+                </div>
+                <div class="header-items">
+                    Best-sellers
+                </div>
+                <div class="header-items">
+                    New releases
+                </div>
+                <div class="header-items">
+                    Support
+                </div>
             </div>
-            <div class="navbar-right">
-                <form action="" method="POST">
-                    <div class="search-box">
-                        <i class="fa fa-search icon-search"></i>
-                        <input class="search" type="text" id="fname" placeholder="Nhập tên sản phẩm..." name="fname">
-                    </div>
-                </form>
-                <img src="images/cart.png" style="margin-right: 40px;" />
-                <img src="images/user.png" />
+            <div class="header-user">
+                <div class="header-search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <img src="img/Bell 1.png" alt="noti" />
+                <img src="img/Shopping cart simple 1.png" alt="shopping" />
+                <img src="img/Avatar 758.png" alt="avatar-user" />
             </div>
         </div>
-
     </header>
 
-    <div class="banner">
-        <div><img alt="banner" src="images/slider.png"/></div>
-        <div class="banner_text">
-            <h1 class="txt_first">Gift for your skin</h1>
-            <h3 class="txt_second">Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteur volptate</h3>
-        </div>
-    </div>
-
     <div class="container">
-        <div class="product_bar">
-            <div class="product_barLeft">
-                <a href="product/" class="selected">All Products</a>
-                <a href="product/face">Face</a>
-                <a href="product/body">Body</a>
+        <div class="container-list-breadcrumb">
+            <a href="#">Home</a>/<a href="#">Category</a>/<a class="actived">Product title</a>
+        </div>
+        <div class="container-title">Product title</div>
+        <div class="container-rating">
+            <img src="img/Rating 317.png" alt="Rating" />
+            <span class="point">4.20</span>
+            <span class="reviews">(99 reviews)</span>
+            <div class="right">
+                <div class="right-items"><i class="fa fa-share-alt"></i> Share</div>
+                <div class="right-items"><i class="fa fa-heart-o"></i> Save</div>
             </div>
-            <div class="product_barRight">
-                <form action="" method="POST">
-                    <div class="search-box">
-                        <i class="fa fa-search icon-search"></i>
-                        <input class="search" type="text" id="fname" placeholder="Nhập tên sản phẩm..." name="fname">
-                    </div>
-                </form>
-                <div class="product_dropdown">
-                    <button class="dropbtn">Sắp xếp <i class="fa fa-chevron-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="#">Theo A-Z</a>
-                        <a href="#">Theo Z-A</a>
-                        <a href="#">Theo giá</a>
-                    </div>
+        </div>
+        <div class="container-image">
+            <div class="container-image-main">
+                <img src="img/Image 1705.png" alt="Hình trái cam" />
+            </div>
+            <div class="container-image-sub">
+                <div class="container-image-items">
+                    <img src="img/Image 1708.png" alt="Cành cây đào hay cái gì đó" />
+                </div>
+                <div class="container-image-items">
+                    <img src="img/Image 1707.png" alt="Lại là trái cam mà nó không giống trái cam đầu" />
+                </div>
+                <div class="container-image-items">
+                    <img src="img/Image 1706.png" alt="Hình như là cây hoa hướng dương còn non mà không biết phải không" />
+                </div>
+                <div class="container-image-items">
+                    <img src="img/Image 1709.png" alt="Hổng biết cái gì luôn" />
                 </div>
             </div>
         </div>
-
-        <div class="list-product">
-            <div class="show-product">
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">Best-Seller</label>
-                    <img alt="Product" src="images/Image 1 (1).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$32</h1> <h3 class="product-price2">$42</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">Best-Seller</label>
-                    <img alt="Product" src="images/Image 1 (2).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$22</h1> <h3 class="product-price2">$28</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
+        <div class="container-description">
+            <div class="container-description-main">
+                <div class="title-description">Product description</div>
+                <div class="content-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida enim non metus viverra, quis ultricies arcu ultricies. In feugiat enim quis ultrices pulvinar. Proin lobortis posuere dolor, vel rutrum metus suscipit id. Praesent vitae scelerisque
+                    eros. In hac habitasse platea dictumst. Duis vehicula neque id ipsum laoreet, at sodales ex commodo. Etiam iaculis imperdiet lorem. Integer erat mi, dapibus laoreet porttitor luctus, condimentum sed nisl.<br/> Orci
+                    varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in gravida velit. Cras interdum pharetra mi, at tempor diam scelerisque a. Aliquam eleifend quam et nulla pharetra, ac dapibus eros molestie. Sed
+                    porttitor orci quis dui placerat, eu placerat sem blandit. Fusce rutrum justo at purus blandit, ut finibus tellus feugiat. In nec viverra massa. Nulla in odio vel urna cursus tempor. Nullam id ante ut libero pellentesque gravida. Nulla
+                    cursus eleifend leo, vel volutpat lectus. Pellentesque in nisi lacus. </div>
+                <div class="sort-description">
+                    <li>
+                        <img src="img/Truck 1.png" alt=""> <span id="spansort">Free delivery</span>
+                    </li>
+                    <li>
+                        <img src="img/Arrow bend up left 1.png" alt=""> <span id="spansort">7 days return</span>
+                    </li>
+                    <li>
+                        <img src="img/Globe 1.png" alt=""> <span id="spansort">Made in USA</span>
+                    </li>
+                    <li>
+                        <img src="img/Medal 1.png" alt=""> <span id="spansort">2 years guarantee</span>
+                    </li>
+                    <li>
+                        <img src="img/Chat dots 1.png" alt=""> <span id="spansort">100% authentic</span>
+                    </li>
+                    <li>
+                        <img src="img/Checks 1.png" alt=""> <span id="spansort">24/7 customer support</span>
+                    </li>
                 </div>
             </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">Best-Seller</label>
-                    <img alt="Product" src="images/Image 1 (3).png"/>
+            <div class="container-description-sub">
+                <div class="sub-money">$99</div>
+                <div class="custom-select">
+                    <select>
+                      <option value="0">Color</option>
+                      <option value="1">Red</option>
+                      <option value="2">Blued</option>
+                      <option value="3">Black</option>
+                      <option value="4">White</option>
+                    </select>
                 </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$18</h1> <h3 class="product-price2">$26</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
+                <div class="custom-select">
+                    <select>
+                      <option value="0">Size</option>
+                      <option value="1">S</option>
+                      <option value="2">M</option>
+                      <option value="3">L</option>
+                      <option value="4">XL</option>
+                    </select>
                 </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">Best-Seller</label>
-                    <img alt="Product" src="images/Image 1 (4).png"/>
+                <div class="custom-select">
+                    <select>
+                      <option value="0">Number</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3" selected>3</option>
+                      <option value="4">4</option>
+                    </select>
                 </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$48</h1> <h3 class="product-price2">$56</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
+                <div class="sub-total">
+                    <span>Total</span>
+                    <span id="price">$265</span>
                 </div>
-            </div>
-
-        </div>
-        <div class="show-product">
-
-            <div class="product-item">
-                <div class="product-img">
-                    <img alt="Product" src="images/Image 1 (5).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$31</h1>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">New</label>
-                    <img alt="Product" src="images/Image 1 (6).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$40</h1> <h3 class="product-price2">$48</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <img alt="Product" src="images/Image 1 (7).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$26</h1>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <img alt="Product" src="images/Image 1 (8).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$18</h1>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="show-product">
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">New</label>
-                    <img alt="Product" src="images/Image 1 (9).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$52</h1>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <img alt="Product" src="images/Image 1 (10).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$47</h1> <h3 class="product-price2">$42</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <img alt="Product" src="images/Image 1 (11).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$44</h1>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-item">
-                <div class="product-img">
-                    <label for="bestSeller" class="product-tagline">New</label>
-                    <img alt="Product" src="images/Image 1 (12).png"/>
-                </div>
-                <div class="product-info">
-                    <h4 class="product-title">Product title</h4>
-                    <p class="product-describe">Lorem ipsum dolor sit amet</p>
-                    <div class="product-price">
-                        <div class="product-buy">
-                            <h1 class="product-price1">$32</h1> <h3 class="product-price2">$42</h3>
-                        </div>
-                        <img alt="Shopping" src="images/Button 1 (2).png"/>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        </div>
-
-        <div class="nav-pages">
-            <a href="#"><div class="item"> <img alt="left" src="images/Button 1 (5).png"/></div></a>
-            <a href="#"><div class="item">1</div></a>
-            <a href="#"><div class="item selected">2</div></a>
-            <a href="#"><div class="item">3</div></a>
-            <a href="#"><div class="item">4</div></a>
-            <a href="#"><div class="item"> <img alt="right" src="images/Button 1 (6).png" /></div></a>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        <div class="footer-selection-group">
-
-            <div class="footer-selection">
-                <h2>About</h2>
-                <p>Home</p>
-                <p>Shop</p>
-                <p>Our story</p>
-                <p>Blogs</p>
-                <select class="language">
-                    <option value="en">English</option>
-                    <option value="vi">Tiếng Việt</option>
-                    <option value="ar">العربية</option>
-                </select>
-            </div>
-
-            <div class="footer-selection">
-                <h2>Help</h2>
-                <p>Shipping & Returns</p>
-                <p>Track Order</p>
-                <p>FAQs</p>
-            </div>
-
-            <div class="footer-selection">
-                <h2>Contact</h2>
-                <p>Phone:</p>
-                <p><b>(+1) 123 456 7893</b></p>
-                <p>Email:</p>
-                <p><b>name@email.com</b></p>
-            </div>
-
-        </div>
-        
-        <div class="footer-selection">
-            <h2>Receive new promotions</h2>
-            <p>Duis ea tempor commodo amet reprehende</p>
-            <div class="promotions">
-                <i class="fa fa-envelope-o"></i>
-                <input type="email" class="email-input" placeholder="Input your email" />
-                <button name="subscribe" class="subscribe" type="submit">Subscribe</button>
-            </div>
-
-            <div class="media-social">
-                <a href="#"><img alt="" src="images/Twitter 1.png" /></a>
-                <a href="#"><img alt="" src="images/Facebook 1.png" /></a>
-                <a href="#"><img alt="" src="images/LinkedIn 1.png" /></a>
-                <a href="#"><img alt="" src="images/YouTube 1.png" /></a>
-            </div>
-
-            <div>
-                <p class="copyright">© 2022 Brand, Inc. • <a href="#">Privacy</a> • <a href="#">Terms</a> • <a href="#">Sitemap</a></p>
+                <button class="btnbuy">Buy now</button>
+                <button class="btnadd"><i class="fa fa-shopping-cart"></i> Add to cart</button>
             </div>
         </div>
     </div>
