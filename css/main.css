@@ -309,9 +309,9 @@ header {
     margin: 0px 10px;
 }
 
-.tray-review {
+.tray-review, .tray-related {
     border-top: 1px solid #ececec;
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .tray-review-title-content {
@@ -384,4 +384,150 @@ header {
 
 .tray-review-comment {
     margin:5px 0px;
+}
+
+.tray-related-content {
+    display: flex;
+    gap: 0.5%;
+    margin: 20px 0px;
+}
+
+.tray-related-items {
+    width: 24%;
+    border: 1px solid #f5f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tray-related-items img {
+    width: 100%;
+}
+
+.tray-related-title {
+    display: inherit;
+    height: 30px;
+}
+
+.tray-related-title-content {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tray-related-heart {
+    float: right;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tray-related-price {
+    display: inline;
+    color: rgb(0, 178, 178);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tray-related-rating {
+    float: left;
+}
+
+.tray-related-number {
+    float: right;
+    color: rgb(161, 161, 161);
+}
+
+.tray-related-items-content {
+    margin: 10px;
+}
+
+.tray-related-rating img {
+    margin-bottom: 10px;
+}
+
+.footer {
+    border-top: 1px solid #ececec;
+    padding: 5%;
+    padding-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.center h2 {
+    font-size:20px;
+}
+
+.footer-mail {
+    margin: 10px 0px;
+    border: 10px;
+    overflow: hidden;
+}
+
+.footer-mail .fa {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer-mail input {
+    background-color: #ececec;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    width: 250px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.footer-mail button {
+    height: 100%;
+    border: 0px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    width: 100px;
+    margin-left: -10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-infomation {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    margin: 0 auto;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.footer-items p {
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.footer-brand {
+    display: flex;
+}
+
+.footer-brand {
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-copyright span {
+    cursor: pointer;
 }
