@@ -190,10 +190,12 @@ header {
 
 .container-description {
     margin: 30px 0px;
+    height: 450px;
+    overflow: hidden;
 }
 
 .title-description {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -299,8 +301,87 @@ header {
 
 .sort-description li {
     list-style: none;
+    display: flex;
+    margin-top: 20px;
 }
 
 #spansort {
+    margin: 0px 10px;
+}
+
+.tray-review {
+    border-top: 1px solid #ececec;
+    padding: 50px 0px;
+}
+
+.tray-review-title-content {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+
+.tray-review-title {
+    display: flex;
+}
+
+.tray-review-title-rating {
+    margin: 0px 20px;
+    display: inherit;
     align-items: center;
+    font-weight: bold;
+}
+
+.tray-review-title-rating img {
+    margin-right: 5px;
+}
+
+.tray-review-more {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    padding-right: 170px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: rgb(161, 161, 161);
+}
+
+.tray-review-title-rating span {
+    margin: 0px 10px;
+    font-weight: normal;
+}
+
+.tray-review-content {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.tray-review-items {
+    margin: 20px 0px;
+}
+
+.tray-review-user {
+    display: flex;
+    gap: 10px;
+}
+
+.tray-review-name {
+    font-weight: bold;
+    display: flex;
+}
+
+.tray-review-name span {
+    color: rgb(161, 161, 161);
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.tray-review-rating {
+    margin:3px 0px;
+}
+
+.tray-review-comment {
+    margin:5px 0px;
 }
